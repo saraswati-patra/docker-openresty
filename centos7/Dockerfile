@@ -15,7 +15,7 @@ ARG RESTY_YUM_REPO="https://openresty.org/package/centos/openresty.repo"
 ARG RESTY_RPM_FLAVOR=""
 ARG RESTY_RPM_VERSION="1.19.9.1-1"
 ARG RESTY_RPM_DIST="el7"
-ARG RESTY_RPM_ARCH="x86_64"
+ARG RESTY_RPM_ARCH="ppc64le"
 
 LABEL resty_image_base="${RESTY_IMAGE_BASE}"
 LABEL resty_image_tag="${RESTY_IMAGE_TAG}"
